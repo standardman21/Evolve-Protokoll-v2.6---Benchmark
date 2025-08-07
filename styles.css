@@ -1,0 +1,81 @@
+/* Custom styles for Evolve Protokoll v2.6 Benchmarks */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+}
+
+th, td {
+    border: 1px solid #e5e7eb;
+    padding: 0.75rem;
+    text-align: left;
+}
+
+th {
+    background-color: #f3f4f6;
+    font-weight: 600;
+}
+
+/* Color scheme for table indicators */
+.green { background-color: #d1fae5; color: #065f46; }
+.yellow { background-color: #fef9c3; color: #713f12; }
+.blue { background-color: #dbeafe; color: #1e40af; }
+.red { background-color: #fee2e2; color: #991b1b; }
+
+/* Markdown content styling */
+#markdownContent h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+#markdownContent h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+
+#markdownContent p {
+    margin-bottom: 1rem;
+}
+
+#markdownContent ul, #markdownContent ol {
+    margin-bottom: 1rem;
+    padding-left: 2rem;
+}
+
+/* Code block styling */
+pre {
+    background-color: #f9fafb;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    overflow-x: auto;
+}
+
+/* Search input styling */
+#searchInput {
+    transition: border-color 0.3s;
+}
+
+#searchInput:focus {
+    border-color: #2563eb;
+    outline: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        space-y-2;
+    }
+    table {
+        font-size: 0.875rem;
+    }
+}
